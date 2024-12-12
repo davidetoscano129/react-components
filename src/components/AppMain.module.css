@@ -1,45 +1,28 @@
 .container {
     max-width: 600px;
-    /* Imposta una larghezza massima */
     margin: 50px auto;
-    /* Centra il container */
     background-color: white;
-    /* Sfondo bianco */
     border-radius: 10px;
-    /* Angoli arrotondati */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-    /* Ombra */
     overflow: hidden;
-    /* Taglia gli elementi fuori dal bordo */
 }
 
 .image {
     width: 100%;
-    /* L'immagine riempie tutta la larghezza del container */
     height: auto;
-    /* Mantiene le proporzioni */
     display: block;
-    /* Rimuove spazi indesiderati sotto l'immagine */
 }
 
 section {
     padding: 20px;
-    /* Spaziatura interna per il testo */
     text-align: center;
-    /* Centra il testo */
 }
 
 p {
     font-size: 1rem;
-    /* Dimensione del testo leggibile */
     color: #555;
-    /* Colore del testo leggermente più chiaro rispetto al titolo */
     line-height: 1.6;
-    /* Spaziatura tra le righe per migliorare la leggibilità */
     margin: 20px 0;
-    /* Spaziatura sopra e sotto */
     font-family: 'Arial', sans-serif;
-    /* Stesso font del titolo per coerenza */
     text-align: justify;
-    /* Allinea il testo in modo uniforme sui lati */
 }
