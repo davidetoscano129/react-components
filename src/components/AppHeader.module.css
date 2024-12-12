@@ -1,9 +1,17 @@
-.title {
-    color: blue;
-    font-size: 2rem;
+.header {
+    background-color: #f5f5f5;
+    padding: 20px 0;
     text-align: center;
+    border-bottom: 2px solid #ddd;
 }
 
-.header {
-    padding: 2rem;
+.title {
+    font-size: 2rem;
+    color: #333;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    margin: 0;
+    line-height: 1.2;
+    font-family: 'Arial', sans-serif;
 }
